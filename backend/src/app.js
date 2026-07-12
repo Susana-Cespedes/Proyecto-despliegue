@@ -4,6 +4,8 @@ const cors = require('cors');
 const sequelize = require('./db');
 const expensesRouter = require('./routes/expenses');
 
+// Backend de Maneja tus Gastos
+
 const app = express();
 const PORT = process.env.PORT || 3000;
 
